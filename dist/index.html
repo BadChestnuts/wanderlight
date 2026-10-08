@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101713">
+  <meta name="description" content="点亮 · 属于你的旅行地图。用旋转地球、中国城市与区县地图、照片相册和人生旅行报告，收藏走过的世界。">
+  <title>点亮 · Wanderlight — 你的旅行地图</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./vendor/d3.min.js" defer></script>
+  <script src="./vendor/topojson.min.js" defer></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div id="app"><div class="boot"><img src="./favicon.svg" width="48" height="48" alt="点亮"><p>正在展开你的世界…</p><span>WANDERLIGHT</span></div></div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <input type="file" id="backup-input" accept=".json,application/json" hidden>
+  <noscript>点亮需要 JavaScript 才能显示地图。请在浏览器设置中启用 JavaScript。</noscript>
+</body>
+</html>

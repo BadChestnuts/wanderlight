@@ -1,0 +1,31 @@
+{
+  "generated": "2026-10-08",
+  "china": {
+    "url": "https://github.com/zhChuXiao/ChinaGeoJson",
+    "commit": "7aa2c5fabc6a892015625898c3482874b233f9de",
+    "upstream": "DataV.GeoAtlas",
+    "license": "MIT (repository)"
+  },
+  "provinces": {
+    "url": "https://github.com/Supeset/China-GeoData",
+    "commit": "5822c4c0a0bdfd73327f9454976c8661bfd6ad9f",
+    "license": "MIT"
+  },
+  "world": {
+    "url": "https://github.com/topojson/world-atlas",
+    "version": "2.0.2",
+    "upstream": "Natural Earth 1:110m",
+    "license": "ISC / public-domain data",
+    "supplement": "Natural Earth 1:50m small-country boundaries"
+  },
+  "counts": {
+    "provinces": 34,
+    "cities": 370,
+    "counties": 2814
+  },
+  "countryNames": {
+    "url": "https://github.com/michaelwittig/node-i18n-iso-countries",
+    "version": "7.14.0",
+    "license": "MIT"
+  }
+}

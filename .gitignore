@@ -1,0 +1,15 @@
+node_modules/
+.openai/
+.sites-runtime/
+.env
+.env.*
+!.env.example
+qa/
+runtime/
+*.zip
+*.tar.gz
+点亮旅行备份-*.json
+*旅行备份*.json
+*.log
+Thumbs.db
+.DS_Store
