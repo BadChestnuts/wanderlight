@@ -5,7 +5,7 @@
   "type": "module",
   "description": "点亮 · A personal travel atlas",
   "scripts": {
-    "dev": "node scripts/serve.mjs",
+    "dev": "node scripts/serve-dev.mjs",
     "start": "node scripts/serve.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "node --check dist/app.js && node --check dist/core.js && node --check dist/map.js",

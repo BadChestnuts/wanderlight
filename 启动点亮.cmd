@@ -9,6 +9,7 @@ if errorlevel 1 (
   pause
   exit /b 1
 )
-start "" "http://localhost:4173"
-node scripts\serve.mjs
+echo 点亮开发版：http://localhost:4176
+start "" "http://localhost:4176"
+node scripts\serve-dev.mjs
 pause
